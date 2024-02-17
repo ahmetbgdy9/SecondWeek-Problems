@@ -4,3 +4,10 @@ Temel Türler & Null Güvenliği
 - val(value) değişkenlerin değerleri sonradan değiştirilemez. var(variable) değişkenlerin ise değiştirilebilir.
 - Maliyet olarak bakarsak genel anlamda bir fark yoktur fakat akademik seviyede bakarsak var daha performanlıdır çünkü val'daki gibi değerinin sonradan değiştirilmemesi için ekstradan bir if bloğu yok.
 - Günlük hayatta kodlarımızda threading işlemler yapabiliriz bu durumda val daha performanslı hale gelecektir.
+
+==================================================================================
+
+2- Bir var değişkeni val gibi davranmasını nasıl sağlayabiliriz val kelimesini kullanmadan? Bunu neden yapmak isteriz? Örnek bir senaryo verin.
+
+- "Set()" ini private yaparız.
+- var değişkenin sadece bulunduğu class içinde değerinin değişmesi bulunduğu class dışında değerinin değişmemesini istediğimiz durumlarda setini private yaparız.
