@@ -96,3 +96,9 @@ Sayılar
 Her alt sınıfın farklı bir değer aralığı vardır.
 Kullanacağınız veri türünü seçerken, değer aralığının uygulamanızın ihtiyaçlarını karşıladığından emin olmanız önemlidir.
 
+==================================================================================
+
+2. Eğer bir değişkene tip belirtimi yapılmaz ve bir değer atanırsa, Kotlin tip çıkarımını nasıl yapar?
+
+- Değişkene atanan değere göre tip çıkarımını yapar .
+
