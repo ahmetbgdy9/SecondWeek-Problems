@@ -190,3 +190,23 @@ val number1 = 123_456_789 // 123.456.789 olarak yorumlanır
 <=: Bir sayısal değerin diğerinden küçük veya eşit olup olmadığını kontrol eder.
 
 ==================================================================================
+
+14.Bit düzeyinde operatörler (Bitwise operators) nelerdir? Ne amaçla kullanılır? Kotlin'de bunları nasıl kullanabilirsiniz?
+
+-Bit düzeyinde operatörler, tek tek bitleri manipüle etmek için kullanılan özel operatörlerdir. Bu operatörler, tam sayı veri tipleri üzerinde çalışır ve her bir bitin değerini 0 veya 1 olarak değiştirir.
+
+Kullanım Alanları:
+
+Veri sıkıştırma: Verileri daha az yer kaplayacak şekilde sıkıştırmak için kullanılır.
+Veri şifreleme: Verileri yetkisiz erişime karşı korumak için kullanılır.
+Matematiksel işlemler: İkili sayılarla matematiksel işlemler yapmak için kullanılır.
+Donanım ayarı: Donanım aygıtlarının kontrol bitlerini ayarlamak için kullanılır.
+
+ve (and): İki sayısal değerin her bir bitini karşılaştırır ve her iki bit de 1 ise 1, aksi takdirde 0 döndürür.
+ya da (or): İki sayısal değerin her bir bitini karşılaştırır ve en az bir bit 1 ise 1, aksi takdirde 0 döndürür.
+xor (xor): İki sayısal değerin her bir bitini karşılaştırır ve bitlerin değerleri farklıysa 1, aynıysa 0 döndürür.
+değil (not): Bir sayısal değerin her bir bitini tersine çevirir.
+sol kaydırma (shl): Bir sayısal değerin bitlerini sola kaydırır.
+sağ kaydırma (shr): Bir sayısal değerin bitlerini sağa kaydırır.
+
+==================================================================================
