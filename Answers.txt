@@ -38,3 +38,10 @@ Temel Türler & Null Güvenliği
 - Kotlindeki primitive değişken tipleri class gibi görünseler bile yapılan optimizasyonlar sonucu byte koda çevrilirken java tarafındaki gerçel primitivlere denk gelir.
 
 ==================================================================================
+
+6-"Tip Güvenliği" (Type Safety) kavramını açıklayın.
+
+- Değişken tipi ile atanan tiplerin değerlerinin aynı olması demektir
+- Kotlin'in en önemli özelliklerinden biridir ve kodun daha güvenli, sağlam, okunabilir ve performanslı olmasını sağlar.
+
+==================================================================================
