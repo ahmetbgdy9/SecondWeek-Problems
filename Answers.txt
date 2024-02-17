@@ -78,3 +78,10 @@ Nullable bir değişken ise referans tiplidir. bu sebeple heap üzerinde yer kap
 - primitive tiplerin referans tiplere göre daha hızlı olmasının sebebi hem referansı hem değeri stackte tutulur.
 
 ==================================================================================
+
+12. Nullable bir değişkenle çalışırken hangi operatörleri kullanırız? Bu operatörlerin kullanım farkları nelerdir? Hangisini ne zaman kullanmak daha anlamlıdır?
+
+- Bu değişkenleri bir işleme tabi tutarken iki farklı seçeneğimiz var "!!" ve "?"
+var result: Int?
+result!!.plus(23) -> Null olup olmadığına bakma her durumda çalıştır.
+result?.plus(23)  -> Eğer null değilse çalıştır.
