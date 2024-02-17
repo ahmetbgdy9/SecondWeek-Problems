@@ -122,3 +122,9 @@ Kullanacağınız veri türünü seçerken, değer aralığının uygulamanızı
 Virgül (,) bazı ülkelerde ondalık ayracı olarak kullanılır. Kotlin'de virgül ondalık ayracı olarak kabul edilmez.
 
 ==================================================================================
+
+6. Double ve Float değişkenler ondalık kısımda kaç basamağa kadar işlem yaparlar? Bu sınırın üzerinde gelen ondalık bilgileri için nasıl davranırlar? Hangi durumlar için Float ve hangi durumlar için Double kullanılmalıdır?
+
+-Double Yaklaşık 15-16 basamak ondalık basamak işleyebilir. Float Yaklaşık 7 basamak ondalık basamak işleyebilir. Double daha fazla ondalık basamak işleyebilir ve hassas işlemler için daha uygundur. Float daha az bellek kullanır ve daha az hassas işlemler için uygundur.
+
+==================================================================================
