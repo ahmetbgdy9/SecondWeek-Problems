@@ -150,3 +150,14 @@ val number1 = 1234.567
 val number2 = 1,234,567.890
 
 ==================================================================================
+
+9.Sayısal değişkenlerde alt çizgi (underscore) nasıl kullanılır? Kotlin bunu nasıl yorumlar?
+
+-sayısal değişkenlerde alt çizgi (_), okunabilirliği artırmak için kullanılabilir. Alt çizgi, sayıların basamak gruplarını ayırmak için kullanılır.
+
+Örnekler:
+Kotlin
+
+val number1 = 123_456_789 // 123.456.789 olarak yorumlanır
+
+==================================================================================
