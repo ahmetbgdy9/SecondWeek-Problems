@@ -69,3 +69,12 @@ Temel Türler & Null Güvenliği
 - Nullable değişkenler, null olmayan değişkenlere göre daha fazla bellek kullanır. Bunun sebebi, nullable değişkenlerin null değerini saklamak için ek bir bit kullanmasıdır. Nullable değişkenlerin kullanımı, null kontrol işlemleri nedeniyle null olmayan değişkenlere göre daha az performanslı olabilir.
 
 ==================================================================================
+
+11. Nullable bir değişkenin bir değere sahip olması ile null olması arasında bellek yönetimi açısından nasıl bir fark vardır? Null değer almış bir değişken bellekte yer kaplamaz diyebilir miyiz?
+
+-Null değer almış bir değişkenin bellekte yer kaplamadığını söylemek tam olarak doğru değildir.
+-Nullable bir değişken,heap üzerinde null olduğu için yer kaplamasa bile stack üzerinde o değişken için halen bir miktar yer kaplanmış olur. Stackler genel olarak heaplerden daha hızlıdır ve performanslıdr. Özetlemek gerikirse Stack yapısı referansları yani değişkenleri tutar Heap ise bunlara ait verileri tutar.
+Nullable bir değişken ise referans tiplidir. bu sebeple heap üzerinde yer kaplamasa bile stackte o değişken için yer ayrılır. 
+- primitive tiplerin referans tiplere göre daha hızlı olmasının sebebi hem referansı hem değeri stackte tutulur.
+
+==================================================================================
