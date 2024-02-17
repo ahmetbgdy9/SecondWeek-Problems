@@ -179,3 +179,14 @@ val number1 = 123_456_789 // 123.456.789 olarak yorumlanır
 -toplama işlemi, çıkarma işlemi, bölme işlemi, çarpma işlemi , mod alma işlemi
 
 ==================================================================================
+
+13. Sayısal değişkenlerde hangi karşılaştırma operatörleri kullanılabilir?
+
+- ==: İki sayısal değerin eşit olup olmadığını kontrol eder.
+!=: İki sayısal değerin eşit olup olmadığını kontrol eder ve eşit değillerse true döndürür.
+>: Bir sayısal değerin diğerinden büyük olup olmadığını kontrol eder.
+<: Bir sayısal değerin diğerinden küçük olup olmadığını kontrol eder.
+>=: Bir sayısal değerin diğerinden büyük veya eşit olup olmadığını kontrol eder.
+<=: Bir sayısal değerin diğerinden küçük veya eşit olup olmadığını kontrol eder.
+
+==================================================================================
