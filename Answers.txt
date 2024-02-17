@@ -140,3 +140,13 @@ val numberString = "0777"
 val number = numberString.toInt(8) // 777'ye eşit sekizlik bir tamsayı
 
 ==================================================================================
+
+8. "Geleneksel Notasyon" (Conventional Notation) gösterimi nasıl yapılır?
+
+-sayıları ondalık basamakları ve virgüller kullanarak yazma şeklidir. Örneğin:
+Kotlin
+
+val number1 = 1234.567
+val number2 = 1,234,567.890
+
+==================================================================================
