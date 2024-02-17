@@ -210,3 +210,11 @@ sol kaydırma (shl): Bir sayısal değerin bitlerini sola kaydırır.
 sağ kaydırma (shr): Bir sayısal değerin bitlerini sağa kaydırır.
 
 ==================================================================================
+
+15.Kotlin'de büyük sayılarla çalışırken hangi ek türlerden yararlanılır ve bu türlerin sınırları nelerdir?
+
+-Kotlin'de, Int ve Long gibi yerleşik türler, günlük kullanımda yeterli olsa da, büyük sayılarla çalışırken sınırlamalar ortaya çıkabilir. Bu türlerin sınırları ve büyük sayılarla çalışırken kullanılabilecek ek türler şunlardır:
+BigInteger,BigDecimal
+bunları aşan durumlarda string kullanabiliriz.
+
+==================================================================================
