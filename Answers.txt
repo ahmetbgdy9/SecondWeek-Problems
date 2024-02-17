@@ -63,3 +63,9 @@ Temel Türler & Null Güvenliği
 -Bu durumda Kotlin, Nothing? tipini atar.
 
 ==================================================================================
+
+10. İlkel bir değişkenin nullable olması ile null değer alamaması arasında bellek yönetimi açısından nasıl farklar vardır?
+
+- Nullable değişkenler, null olmayan değişkenlere göre daha fazla bellek kullanır. Bunun sebebi, nullable değişkenlerin null değerini saklamak için ek bir bit kullanmasıdır. Nullable değişkenlerin kullanımı, null kontrol işlemleri nedeniyle null olmayan değişkenlere göre daha az performanslı olabilir.
+
+==================================================================================
