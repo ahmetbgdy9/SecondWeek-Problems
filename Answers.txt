@@ -218,3 +218,11 @@ BigInteger,BigDecimal
 bunları aşan durumlarda string kullanabiliriz.
 
 ==================================================================================
+
+16.Double ve Float değişkenler kullanılırken "yuvarlama" davranışı nasıldır? Bu nasıl değiştirilebilir?
+
+-Double: Varsayılan olarak, Double değerler en yakın çift sayıya yuvarlanır.
+Float: Varsayılan olarak, Float değerler en yakın tek sayıya yuvarlanır.
+bu durumlar için kendi fonksiyonumuzu yazabiliriz veya  Kotlin Standard Kütüphanesi'nde roundTo ve truncate fonksiyonları da kullanılabiliriz.
+
+==================================================================================
