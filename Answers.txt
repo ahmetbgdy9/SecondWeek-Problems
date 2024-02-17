@@ -102,3 +102,11 @@ Kullanacağınız veri türünü seçerken, değer aralığının uygulamanızı
 
 - Değişkene atanan değere göre tip çıkarımını yapar .
 
+==================================================================================
+
+3.Float değişken oluştururken F ve f harfleri varken, Long değişken oluştururken neden küçük l harfi yoktur?
+
+- Bazı fontlar da 'l' harfi '1' benzediği için
+
+==================================================================================
+
