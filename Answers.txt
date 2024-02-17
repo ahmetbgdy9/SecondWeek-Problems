@@ -167,3 +167,9 @@ val number1 = 123_456_789 // 123.456.789 olarak yorumlanır
 - "==" ile değeri "===" ile referans ettiği adresi karşılaştırıız.
 
 ==================================================================================
+
+11. === operatörü ile karşılaştırma yaparken Byte değer aralığı neden önemlidir? Kotlin bu aralığa göre neden özel bir davranış sergiler?
+
+- Kotlin'in bu özel davranışının sebebi performansı optimize etmektir. Byte değer aralığının dışında kalan değerleri sarmak, bellek kullanımını ve işlemci yükünü azaltır.
+
+==================================================================================
