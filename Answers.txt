@@ -45,3 +45,9 @@ Temel Türler & Null Güvenliği
 - Kotlin'in en önemli özelliklerinden biridir ve kodun daha güvenli, sağlam, okunabilir ve performanslı olmasını sağlar.
 
 ==================================================================================
+
+7- Bir değişkeni nullable yapmak için ne yapmalıyız?
+
+- Değişkenin tipinin sonuna "?" işareti konulur. Eğer bir değişkene tip verilmez ve direkt null değer ataması yapılırsa Ide tip çıkarımı yaparken değişkenin tipini "Nothing" olarak işaretler. Çünkü hangi tipe karşılık geldiği bilinmez. Nothing de boş bir class tan oluşmaktadır.
+
+==================================================================================
