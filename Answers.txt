@@ -115,3 +115,10 @@ Kullanacağınız veri türünü seçerken, değer aralığının uygulamanızı
 - Tek duyarlıklı (single precision) ve çift duyarlıklı (double precision), kayan nokta sayılarının temsilinde kullanılan iki farklı formattır. Farklılıkları, sayıların saklanmasında kullanılan bit sayısı ve bu da doğruluk ve aralıklarını etkiler.
 
 ==================================================================================
+
+5.Double ve Float değişkenlerle çalışırken ondalık ayıracı olarak hangi işaretler kullanılır? Bu ayıraçların kullanımında nelere dikkat etmek gerekir?
+
+-Nokta (.) ondalık ayracı olarak küresel olarak kabul edilir.
+Virgül (,) bazı ülkelerde ondalık ayracı olarak kullanılır. Kotlin'de virgül ondalık ayracı olarak kabul edilmez.
+
+==================================================================================
