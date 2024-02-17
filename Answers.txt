@@ -22,3 +22,13 @@ Temel Türler & Null Güvenliği
 
 -Readonly: Değişkenin referansı değiştirilebilir.
 -Immutable: Değişkenin referansı da değiştirilemez.
+
+==================================================================================
+
+4-"Tip Çıkarımı" (Type inference) kavramını açıklayın. Hangi durumlarda tip belirtmek kesin olarak gereklidir?
+
+-Bir değişkene "=" ile değer atadığın zaman dilin hangi tipte değişken olduğunu anlamasıdır. 
+-eğer oluşturduğumuz değişkenin değerini ilk oluşturulma anında vermiyorsak 
+"initialize" işlemi yapmıyorsak. tipini belirtmemiz gerekir.
+
+==================================================================================
