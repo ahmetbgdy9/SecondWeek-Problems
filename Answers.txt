@@ -128,3 +128,15 @@ Virgül (,) bazı ülkelerde ondalık ayracı olarak kullanılır. Kotlin'de vir
 -Double Yaklaşık 15-16 basamak ondalık basamak işleyebilir. Float Yaklaşık 7 basamak ondalık basamak işleyebilir. Double daha fazla ondalık basamak işleyebilir ve hassas işlemler için daha uygundur. Float daha az bellek kullanır ve daha az hassas işlemler için uygundur.
 
 ==================================================================================
+
+7. Sekizlik (Octal) değişkenler Java'da nasıl tanımlanır? Kotlin'de Sekizlik değişken tanımlanabilir mi?
+
+-Java'da sekizlik (octal) değişkenler, 0 ön eki ile tamsayı literal olarak tanımlanır. Örneğin:
+int number = 0777; // 777'ye eşit sekizlik bir tamsayı
+
+Kotlin'de sekizlik değişkenler doğrudan tanımlanamaz. Ancak, Kotlin'de String türünden bir sekizlik metni tanımlayabilir ve bunu Int türüne dönüştürebilirsiniz:
+
+val numberString = "0777"
+val number = numberString.toInt(8) // 777'ye eşit sekizlik bir tamsayı
+
+==================================================================================
