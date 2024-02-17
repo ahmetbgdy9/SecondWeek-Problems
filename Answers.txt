@@ -51,3 +51,9 @@ Temel Türler & Null Güvenliği
 - Değişkenin tipinin sonuna "?" işareti konulur. Eğer bir değişkene tip verilmez ve direkt null değer ataması yapılırsa Ide tip çıkarımı yaparken değişkenin tipini "Nothing" olarak işaretler. Çünkü hangi tipe karşılık geldiği bilinmez. Nothing de boş bir class tan oluşmaktadır.
 
 ==================================================================================
+
+8- "Null Güvenliği" (Null Safety) kavramını açıklayın.
+
+- Bir değişkenin null değer alabileceğini değişkene önceden belirterek beklenmedik hatalara ve uygulamanın crash olmasının önüne geçmesi olayına deriz.
+
+==================================================================================
