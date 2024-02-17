@@ -1,0 +1,6 @@
+Temel Türler & Null Güvenliği
+
+1- val ile var arasındaki fark nedir?
+- val(value) değişkenlerin değerleri sonradan değiştirilemez. var(variable) değişkenlerin ise değiştirilebilir.
+- Maliyet olarak bakarsak genel anlamda bir fark yoktur fakat akademik seviyede bakarsak var daha performanlıdır çünkü val'daki gibi değerinin sonradan değiştirilmemesi için ekstradan bir if bloğu yok.
+- Günlük hayatta kodlarımızda threading işlemler yapabiliriz bu durumda val daha performanslı hale gelecektir.
