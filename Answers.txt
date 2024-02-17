@@ -57,3 +57,9 @@ Temel Türler & Null Güvenliği
 - Bir değişkenin null değer alabileceğini değişkene önceden belirterek beklenmedik hatalara ve uygulamanın crash olmasının önüne geçmesi olayına deriz.
 
 ==================================================================================
+
+9. Bir değişkene null değer atanır ve tip belirtilmezse Kotlin bu değişkeni nasıl yorumlar?
+
+-Bu durumda Kotlin, Nothing? tipini atar.
+
+==================================================================================
