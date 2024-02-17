@@ -11,3 +11,14 @@ Temel Türler & Null Güvenliği
 
 - "Set()" ini private yaparız.
 - var değişkenin sadece bulunduğu class içinde değerinin değişmesi bulunduğu class dışında değerinin değişmemesini istediğimiz durumlarda setini private yaparız.
+
+==================================================================================
+
+3- "Değişmez" (Immutable) ve "Salt Okunur" (ReadOnly) kavramlarını açıklayın. val değişkenler neden aslında "değişmez" değil de "salt okunur" olarak açıklanmalıdır?
+
+- Immutable Değeri hiç bir şekilde değişmez(return ettiği değer değişmez). ReadOnly ise değeri atarız fakat sonrasında sadece okuyabilriz. "Set" işlemi yapamayız. 
+
+- val değişkenlerin ReadOnly olmasının sebebi, belirli işlemler sonucunda değerleri değişebilir ancak rastgele değiştirilemez
+
+-Readonly: Değişkenin referansı değiştirilebilir.
+-Immutable: Değişkenin referansı da değiştirilemez.
