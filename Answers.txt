@@ -85,3 +85,14 @@ Nullable bir değişken ise referans tiplidir. bu sebeple heap üzerinde yer kap
 var result: Int?
 result!!.plus(23) -> Null olup olmadığına bakma her durumda çalıştır.
 result?.plus(23)  -> Eğer null değilse çalıştır.
+
+=================================================================================================================================================================================================================================================================================================================================================================================
+
+Sayılar
+
+1. Kaç farklı tipte "number" sınıfı miras alan "alt sınıf" (child class) vardır? Bunların değer aralıkları neden önemlidir?
+
+- Kotlin'de Number sınıfından miras alan 8 farklı alt sınıf bulunur.
+Her alt sınıfın farklı bir değer aralığı vardır.
+Kullanacağınız veri türünü seçerken, değer aralığının uygulamanızın ihtiyaçlarını karşıladığından emin olmanız önemlidir.
+
